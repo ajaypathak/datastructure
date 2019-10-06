@@ -6,7 +6,7 @@ namespace DataStructure.UnitTest
     public class FirstRepeatedCharacterTests
     {
         [TestMethod]
-        public void Happy_Pathak_One_Repeated_Char()
+        public void Happy_Path_One_Repeated_Char()
         {
             FirstRepeatedCharacter character= new FirstRepeatedCharacter();
             char expected = 'a';
@@ -15,7 +15,7 @@ namespace DataStructure.UnitTest
         }
 
         [TestMethod]
-        public void Happy_Pathak_Zero_Repeated_Char()
+        public void Happy_Path_Zero_Repeated_Char()
         {
             FirstRepeatedCharacter character = new FirstRepeatedCharacter();
             char expected = '\n';
